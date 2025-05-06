@@ -1,6 +1,16 @@
 # Spring Rate Limiter
 
-Une librairie simple pour limiter le nombre de requêtes sur vos endpoints Spring Boot avec une annotation `@RateLimit`.
+> Une librairie légère et plug-and-play pour ajouter une **limitation de requêtes** par annotation dans vos projets Spring Boot. Pratique pour protéger vos APIs contre l’abus sans config externe !
+
+---
+
+## 🚀 Fonctionnalités
+
+- ✅ Annotation simple `@RateLimit`
+- ✅ Limitation basée sur l’adresse IP et la méthode appelée
+- ✅ Service en mémoire ultra rapide via **Caffeine Cache**
+- ✅ Intégration transparente avec **Spring AOP**
+- ✅ Gestionnaire d’erreurs personnalisable (`@ControllerAdvice`)
 
 ## Installation (via JitPack)
 
