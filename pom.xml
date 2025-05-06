@@ -13,13 +13,28 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-rate-limiter</name>
 	<description>This library makes it easy to limit the number of requests per API, user, or IP, without heavy configuration, with simple annotations and optional persistence.</description>
-	<url/>
+	
+	<url>https://github.com/MonkilaTECHNOLOGIE/spring-rate-limiter</url>
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<licenses>
-		<license/>
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<id>JoeM1990</id>
+			<name>Joe Monkila</name>
+			<email>jnkiwa25@gmail.com</email>
+		</developer>
 	</developers>
+	
 	<scm>
 		<connection/>
 		<developerConnection/>
